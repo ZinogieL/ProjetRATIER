@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="tel" alignment="0" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="mail" alignment="0" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="nom" alignment="0" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="prenom" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="adresse" alignment="0" min="-2" pref="55" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="1" attributes="0">
+                                      <Component id="selec_nom" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Component id="selec_prenom" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Component id="selec_mail" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Component id="selec_adresse" alignment="0" min="-2" pref="182" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="selec_tel" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="pourle" min="-2" pref="55" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                      <Component id="selec_date" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="prenom1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="adresse1" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                                          <Component id="mail1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="nom1" alignment="0" pref="65" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="ref" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Component id="bouteille" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Component id="carton" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Component id="prix" alignment="0" min="-2" pref="182" max="-2" attributes="0"/>
+                                          <Component id="mail_client" alignment="0" min="-2" pref="108" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="enregistrer" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="524" max="32767" attributes="0"/>
+                      <Component id="commande_panel" min="-2" pref="477" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="colis" min="-2" pref="87" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mail_client" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nom1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="ref" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="prenom1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="bouteille" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="mail1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="carton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="prix" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="adresse1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="pourle" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="selec_date" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
+              <Component id="colis" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nom" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="selec_nom" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="prenom" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="selec_prenom" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="mail" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="selec_mail" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="selec_adresse" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="adresse" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tel" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="selec_tel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="72" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="enregistrer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              <Component id="commande_panel" min="-2" pref="110" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="selec_prenom">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="selec_prenomActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ref">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="refActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="selec_adresse">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="selec_adresseActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="prenom1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre de bouteille : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="selec_mail">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="selec_mailActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mail1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre de carton :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="selec_tel">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="selec_telActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="adresse1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Prix unitaire :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="selec_date">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="selec_dateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="enregistrer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enregistrer un client"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="enregistrerMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enregistrerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="colis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fichecolis"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bouteille">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bouteilleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="prix">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="prixActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nom :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="selec_nom">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="selec_nomActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="prenom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pr&#xe9;nom : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mail :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="adresse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="adresse :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="tel :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pourle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="date :"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="commande_panel">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="commande">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="0">
+                <Column editable="true" title="R&#xe9;f&#xe9;rence" type="java.lang.Object"/>
+                <Column editable="true" title="Bouteilles" type="java.lang.Object"/>
+                <Column editable="true" title="Cartons" type="java.lang.Object"/>
+                <Column editable="true" title="Prix" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="carton">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cartonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nom1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="R&#xe9;f&#xe9;rence :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mail du client"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="mail_client">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mail_clientActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="enregistrer commande"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
